@@ -17,14 +17,14 @@
                 <div class="flex dashboard">
                     <a href="#id">Home</a>
                     <a href="#about-us">About us</a>
-                    <a href="">Community</a>
+                    <a href="#community">Community</a>
                 </div>
                 <svg id="hamburger" viewBox="0 0 24 24">
                     <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
                 </svg>
             </div>
         </header>
-        <div class="main-container">
+        <main class="main-container">
             <div class="home-page" id="home">
                 <div class="block">
                     <p id="star"><a href="https://github.com/j-archives/BeLoved-landing-page" target="_blank">☆ &nbspSTAR</a></p>
@@ -35,20 +35,40 @@
                     </div>
                 </div>
             </div>
+
             <div class="about-page" id="about-us">
                 <div class="about-container">
-                    <div>
-                        <h2>About Us</h2>
-                        <div>
+                    <div class="about-contents">
+                        <img id="line-about" src="/assets/line.png"/>
+                        <h2 id="about-title">About Us</h2>
+                        <div id="empowering-div">
                             <h2>Empowering You to Love Yourself Fully </h2>
-                            <p>A sanctuary dedicated to nurturing self-love, our mission is to inspire, guide, and support you in building confidence, self-worth, and a fulfilling life through our resources, community, and personal growth tools.</p>
+                            <p class="paragraph-text">A sanctuary dedicated to nurturing self-love, our mission is to inspire, guide, and support you in building confidence, self-worth, and a fulfilling life through our resources, community, and personal growth tools.</p>
                         </div>
                     </div>
-                    <div class="about-img-holder">
-
+                    <div class="about-img-holder"></div>
+                </div>
+            </div>
+            <div class="community-page" id="community">
+                <div class="community-container">
+                    <div class="community-contents">
+                        <div class="safe-space">
+                            <h2>A Safe Space to Grow Together</h2>
+                            <p class="paragraph-text community-p">
+                                Join a supportive community of like-minded individuals on their self-discovery and self-love journeys. 
+                                At BeLoved, you can share experiences, find encouragement, and connect with others who understand your path, 
+                                empowering each other to achieve great things together.
+                            </p>
+                        </div>
+                        <h2 id="community-title">Our Community</h2>
+                        <img id="line-community" src="/assets/line.png"/>
+                    </div>
+                    <div class="community-img-holder">
+                        <div class="comm-image" id="img-left"></div>
+                        <div class="comm-image" id="img-right"></div>
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     </body>
 </html>
