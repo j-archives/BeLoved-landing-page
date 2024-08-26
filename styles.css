@@ -46,9 +46,6 @@ body {
     
 }
 
-.main-container {
-    
-}
 
 .home-page {
     margin: 10px auto 0;
@@ -57,7 +54,7 @@ body {
     background-size: cover;
     width: 97%;
     height: 850px;
-    border-radius: 35px;
+    border-radius: 70px;
 }
 
 .block {
@@ -141,24 +138,132 @@ body {
 }
 
 
-
-/* .about-page {
-    /* margin: 40px auto 0;
-    /* background: #E6E6FA; */
-    /* background-size: cover;
-    width: 97%;
-    height: 970px;
-    border-radius: 30px; */ 
-
 .about-page {
     margin: 70px 0;
 }
 
 .about-container {
-    margin: 0 auto;
+    margin: 100px auto;
     background-color: #E6E6FA;
     background-size: cover;
     width: 97%;
-    height: 850px;
-    border-radius: 30px;
+    height: 855px;
+    border-radius: 70px;
+}
+
+.about-contents {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    padding: 90px 0;
+    height: 180px;
+}
+
+.about-contents h2 {
+    font-size: 35px;
+}
+
+
+
+#line-about {
+    position: absolute;
+    left: 0;
+    margin-top: 50px;
+    height: 5px;
+}
+
+#about-title {
+    font-weight: 100;
+    color: #B2BEB5;
+    width: 500px;
+    
+    margin-left: 50px;
+}
+
+.about-img-holder {
+    background-image: url(assets/blueberry.jpg);
+    width: 100%;
+    height: 522px;
+    border: 1px solid black;
+    border-radius: 78px;
+    background-size: cover;
+    background-position: 0%;
+    /* background-repeat: no-repeat; */
+}
+
+.paragraph-text {
+    font-size: 28px;
+    width: 70%;
+}
+
+.community-container {
+    margin: 120px auto 60px;
+    background-color: #FFC1C1;
+    background-size: cover;
+    width: 97%;
+    height: 855px;
+    border-radius: 70px; 
+}
+
+.community-contents {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 75px;
+    height: 180px;
+}
+
+.community-contents h2 {
+    font-size: 35px;
+}
+
+#line-community {
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    height: 5px;
+}
+
+.community-p {
+    width: 100%;
+}
+
+.safe-space {
+    width: 1000px;
+    
+}
+
+#community-title {
+    margin-left: 350px;
+    color: #FAF9F6;
+    font-weight: 100;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.community-img-holder {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-left {
+    background-image: url(assets/hallway.jpg);
+    width: 1700px;
+    height: 500px;
+    margin-right: 15px;
+    background-size: cover;
+    background-position-y: 50%;
+    border: 1px solid black;
+    border-radius: 78px;
+}
+
+#img-right {
+    background-image: url(assets/cats.jpg);
+    width: 1700px;
+    height: 500px;
+    margin-left: 15px;
+    background-size: cover;
+    background-position-y: 70%;
+    border: 1px solid black;
+    border-radius: 78px;
 }
