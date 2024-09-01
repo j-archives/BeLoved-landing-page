@@ -186,8 +186,10 @@ body {
     height: 522px;
     border: 1px solid black;
     border-radius: 78px;
+    object-fit: cover;
     background-size: cover;
     background-position: 0%;
+    
     /* background-repeat: no-repeat; */
 }
 
@@ -253,6 +255,7 @@ body {
     margin-right: 15px;
     background-size: cover;
     background-position-y: 50%;
+    object-fit: cover;
     border: 1px solid black;
     border-radius: 78px;
 }
@@ -264,6 +267,7 @@ body {
     margin-left: 15px;
     background-size: cover;
     background-position-y: 70%;
+    object-fit: cover;
     border: 1px solid black;
     border-radius: 78px;
 }
